@@ -3,7 +3,7 @@ import re
 import pandas as pd
 from facebook_business.api import FacebookAdsApi
 
-from configuracao import ACCESS_TOKEN
+# from configuracao import ACCESS_TOKEN
 
 pd.set_option('display.max_columns', 30)
 pd.set_option('display.max_rows', None)

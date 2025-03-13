@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from logging import info
 
 # from configura_log import configura_log, loga_tempo
-from configuracao import ENGINE_CONN_STR
+# from configuracao import ENGINE_CONN_STR
 
 # configura_log()
 engine = create_engine(url=ENGINE_CONN_STR)
